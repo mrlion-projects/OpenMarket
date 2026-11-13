@@ -7,7 +7,8 @@ const app = new Hono();
 app.use(
   "/api/*",
   cors({
-    origin: "http://localhost:5173"
+    origin: "http://localhost:5173",
+    allowMethods: ["GET", "OPTIONS"]
   })
 );
 
@@ -19,6 +20,7 @@ app.get("/health", (c) => {
 });
 
 app.get("/api/products", (c) => {
+  // Temporary catalog until a product database is configured.
   return c.json([
     {
       id: "p001",

@@ -2,7 +2,10 @@
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "product-service",
   "main": "src/index.ts",
-  "compatibility_date": "2026-11-13"
+  "compatibility_date": "2026-11-13",
+  "dev": {
+    "port": 8788
+  }
   // "compatibility_flags": [
   //   "nodejs_compat"
   // ],
