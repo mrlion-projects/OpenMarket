@@ -1,0 +1,40 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+dist-ssr/
+coverage/
+
+# Cloudflare Wrangler
+.wrangler/
+
+# Environment files
+.env
+.env.*
+!.env.example
+.dev.vars
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Editor files
+.vscode/*
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/*.code-snippets
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Local tooling
+*.local
+*.tsbuildinfo

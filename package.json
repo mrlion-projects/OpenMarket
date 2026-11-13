@@ -1,0 +1,17 @@
+{
+  "name": "openmarket",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "services/*",
+    "gateway/*"
+  ],
+  "scripts": {
+    "dev:customer": "npm run dev -w apps/customer-web",
+    "dev:seller": "npm run dev -w apps/seller-dashboard",
+    "dev:products": "npm run dev -w services/product-service -- --port 8788",
+    "build:customer": "npm run build -w apps/customer-web",
+    "build:seller": "npm run build -w apps/seller-dashboard"
+  }
+}
