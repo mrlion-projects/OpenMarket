@@ -11,7 +11,7 @@
 			"binding": "openmarket_products",
 			"database_name": "openmarket-products",
 			"database_id": "fa86b424-5f5b-404c-a0c3-9bcc06a433af",
-			"remote": true
+			"remote": false
 		}
 	]
 	// "compatibility_flags": [
