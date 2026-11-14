@@ -50,3 +50,10 @@ npm.cmd exec -w services/product-service -- wrangler deploy --dry-run
 ```
 
 The final command validates and bundles the Worker locally without deploying it.
+
+## API Documentation
+
+The API contracts for all OpenMarket microservices
+are documented here:
+
+[OpenMarket API Contracts](docs/api-contracts.md)

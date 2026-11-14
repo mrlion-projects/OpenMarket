@@ -10,7 +10,7 @@
   "scripts": {
     "dev:customer": "npm run dev -w apps/customer-web",
     "dev:seller": "npm run dev -w apps/seller-dashboard",
-    "dev:products": "npm run dev -w services/product-service -- --port 8788",
+    "dev:products": "npm run dev -w services/product-service -- --port 8788 --local",
     "build:customer": "npm run build -w apps/customer-web",
     "build:seller": "npm run build -w apps/seller-dashboard"
   }
